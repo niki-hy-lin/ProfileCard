@@ -1,0 +1,159 @@
+body{
+    color:#000000;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+    background-color:#A3A6BA;
+	 font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+	background-color:inherit;
+	width:350px;
+	height:auto;
+	margin-top:2em;
+	margin-left:35%;
+	margin-right:25%;
+	text-align:center;
+	position:relative;
+	float:left;
+	padding:1px;
+}
+
+
+.cardcontainer{
+  padding:2px;
+	background-color:lightblue;
+	width:350px;
+	height:420px;
+	text-align:center;
+	position:relative;
+	margin-bottom:1em;
+  border: none;
+  border-radius: 28px;
+}
+
+
+.button {
+	background-color:white;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:17px;
+	margin:3px;
+	padding:15px 20px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:grey;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.pinkCard{
+  padding:2px;
+  background-color:#E24E82;
+  width:350px;
+  height:420px;
+  text-align:center;
+  position:relative;
+  margin-bottom:1em;
+  border: none;
+  border-radius: 28px;
+}
+
+
+
+.orangeCard{
+  padding:2px;
+	background-color:#E3A470;
+	width:350px;
+	height:420px;
+	text-align:center;
+	position:relative;
+  margin-bottom:1em;
+  border: none;
+  border-radius: 28px;
+}
+
+.yellowCard{
+  padding:2px;
+	background-color:#F5E895;
+	width:350px;
+	height:420px;
+	text-align:center;
+	position:relative;
+  margin-bottom:1em;
+  border: none;
+  border-radius: 28px;
+}
+
+
+.iconBar{
+  margin-top:5px;
+  padding:1px;
+	background-color:inherit;
+	width:350px;
+	height:50px;
+	text-align:center;
+	position:relative;
+  align-content: center;
+
+}
+
+
+
+/*.switch ccs codes.*/
+
+#switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin: 0 auto;
+}
+
+#switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  background-color: white;
+  bottom: 4px;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+   background-color: #1583ea;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/*...................*/
